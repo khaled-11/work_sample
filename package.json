@@ -1,0 +1,41 @@
+{
+  "name": "work_sample",
+  "version": "1.0.0",
+  "description": "HTML, JavaScript, jQuery, BootStrap & CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaled-11/work_sample.git"
+  },
+  "keywords": [
+    "html",
+    "js",
+    "jQuery",
+    "voice_control",
+    "bootstrap"
+  ],
+  "author": "Khaled Abouseada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaled-11/work_sample/issues"
+  },
+  "homepage": "https://github.com/khaled-11/work_sample#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "md5": "^2.3.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.0",
+    "util-promisifyall": "^1.0.6",
+    "wav": "^1.0.2"
+  }
+}

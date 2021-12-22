@@ -1,0 +1,12 @@
+.alert_dark {
+    font-size:16px; 
+    opacity:0.95; 
+    padding: 10px; 
+    width:80%; 
+    background-color:#838383; 
+    color:white;border-radius:.15rem; 
+    padding:15px; border-radius:20px
+}
+
+
+
