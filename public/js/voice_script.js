@@ -21,13 +21,13 @@
                         console.log(msg.intents[0].name)
                         if (msg.intents[0].name === "Scd"){
                             window.scrollBy({
-                                top: 200,
+                                top: 400,
                                 behavior: 'smooth'
                             });
                             document.getElementById("message").innerHTML =  `Scrolling Down.`
                         } else if (msg.intents[0].name === "Scu"){
                             window.scrollBy({
-                                top: -200,
+                                top: -400,
                                 behavior: 'smooth'
                             });
                             document.getElementById("message").innerHTML =  `Scrolling Up.`
@@ -45,7 +45,7 @@
             // Dismiss the notification window
             setTimeout(function(){
                 notification.close()
-            }, 1800);
+            }, 2400);
         });
         // Check permissions and start App
         check_app();
@@ -55,6 +55,9 @@
                 // Show error if no permission is granted
                 voice();
                 document.getElementById("message").innerHTML =  "No Audio! Please refresh and/or grant permission."
+                setTimeout(function(){
+                    notification.close()
+                }, 2400);
             } else {
                 // Start the app
                 app()
@@ -88,7 +91,7 @@
             await transferRecognizer.listen(result => {
                 if (result.scores[1] > result.scores[0]){
                     trigger_alt ++;
-                } else if (trigger_alt >= 2){
+                } else if (trigger_alt >= 1){
                     voice()
                     document.getElementById("message").innerHTML =  "Hotword detected.<br><br>Analyzing...."
                     transferRecognizer.stopListening();
@@ -96,7 +99,7 @@
                     trigger(transferRecognizer);
                 }
             }, {
-                probabilityThreshold: 0.92,
+                probabilityThreshold: 0.80,
                 overlapFactor: 0.1
             });
             return;
