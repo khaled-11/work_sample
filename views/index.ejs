@@ -44,27 +44,29 @@
                 <h8>01.</h8>
                 <h9>HISTORY</h9>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
-                <div style="display: inline-block; position: absolute; margin-top: 735px;">
+                <div style="display: inline-block; position: absolute; margin-top: 735px;margin-left: 25px;">
                     <img src="/img/1.jpg" alt="Mountains">
                 </div>
-                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 230px;">
+                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 255px;">
                     <img src="/img/2.jpg" alt="Mountains">
                 </div>
-                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 460px;">
+                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 485px;">
                     <img src="/img/3.jpg" alt="Mountains">
                 </div>
-                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 690px;">
+                <div style="display: inline-block; position: absolute; margin-top: 735px; margin-left: 715px;">
                     <img src="/img/4.jpg" alt="Mountains">
                 </div>
+                <div style="width:35px;position: absolute; margin-top: 872px;margin-left: 467.5px;">
+                    <span style = "background-color: white;" class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
             </div>
         </div>
-
         <div class = "second-title">
             <h8>02.</h8>
             <h9>CLIMB</h9>
             <p>Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
-
-
         </div>
         
         <div class = "last-nav">
@@ -77,6 +79,19 @@
         <divSWTCH>
             <div class="last1-scene">
                 <div class = "sch-overlay">
+                    <h8>SCHEDULE</h8>
+                    <div class = "left-p">
+                        <p>25 Nov 2016</p>
+                        <p style="margin-top: -10px;">28 Nov 2016</p>
+                        <p style="margin-top: 23px;">18 Dec 2016</p>
+                        <p style="margin-top: 23px;">7 Jan 2017</p>
+                    </div>
+                    <div class = "right-p">
+                        <p>Vestibulum viverra</p>
+                        <p style="margin-top: -10px;">Vestibulum viverra</p>
+                        <p  style="margin-top: 23px;">Vestibulum viverra</p>
+                        <p  style="margin-top: 23px;">Vestibulum viverra</p>
+                    </div>
                 </div>
             </div>
         </divSWTCH>
@@ -109,9 +124,22 @@
                 $("#fir").removeClass("active");
                 $('divSWTCH').replaceWith(`
                 <divSWTCH>
-                <div class="last2-scene">
+                    <div class="last2-scene">
                     <div class = "sch-overlay">
-                </div>
+                        <h8>SCHEDULE</h8>
+                        <div class = "left-p">
+                            <p>17 Nov 2016</p>
+                            <p style="margin-top: 23px;">13 Dec 2016</p>
+                            <p style="margin-top: -10px;">28 Dec 2016</p>
+                            <p style="margin-top: 23px;">9 Feb 2017</p>
+                        </div>
+                        <div class = "right-p">
+                            <p>Vestibulum viverra</p>
+                            <p style="margin-top: 23px;">Vestibulum viverra</p>
+                            <p  style="margin-top: -10px;">Vestibulum viverra</p>
+                            <p  style="margin-top: 23px;">Vestibulum viverra</p>
+                        </div>
+                    </div>
                 </div>
                 </divSWTCH>
                 `)
@@ -120,10 +148,23 @@
                 $("#fir").addClass("active");
                 $('divSWTCH').replaceWith(`
                 <divSWTCH>
-                <div class="last1-scene">
-                    <div class = "sch-overlay">
+                    <div class="last1-scene">
+                <div class = "sch-overlay">
+                    <h8>SCHEDULE</h8>
+                    <div class = "left-p">
+                        <p>25 Nov 2016</p>
+                        <p style="margin-top: -10px;">28 Nov 2016</p>
+                        <p style="margin-top: 23px;">18 Dec 2016</p>
+                        <p style="margin-top: 23px;">7 Jan 2017</p>
+                    </div>
+                    <div class = "right-p">
+                        <p>Vestibulum viverra</p>
+                        <p style="margin-top: -10px;">Vestibulum viverra</p>
+                        <p  style="margin-top: 23px;">Vestibulum viverra</p>
+                        <p  style="margin-top: 23px;">Vestibulum viverra</p>
                     </div>
                 </div>
+            </div>
                 </divSWTCH>
                 `)
             }
