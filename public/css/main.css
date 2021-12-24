@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 .alert_dark {
     font-size:16px; 
     opacity:0.95; 
@@ -9,7 +13,7 @@
 }
 
 .hero-image {
-    background-image: url("/img/full-hero.jpg");
+    background-image: url("/img/full-hero.webp");
     height: 825px;
     width: 1600px;
     background-position: center;
@@ -66,11 +70,25 @@
 }
 
 .links a{
+    cursor: pointer;
     color: #fefeff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .links2 a{
+    cursor: pointer;
     color: #414f6b;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .links a:hover{
@@ -104,7 +122,7 @@
 }
 
 .second-scene {
-    background-image: url("/img/second_img.jpg");
+    background-image: url("/img/second_img.webp");
     height: 905px;
     width: 1600px;
     margin-top: 0px;
@@ -153,7 +171,7 @@
   }
 
 .last1-scene {
-    background-image: url("/img/tab1.jpg");
+    background-image: url("/img/tab1.webp");
     height: 546px;
     width: 1600px;
     margin-top: 0px;
@@ -216,7 +234,7 @@
 }
 
 .last2-scene {
-    background-image: url("/img/tab2.jpg");
+    background-image: url("/img/tab2.webp");
     height: 546px;
     width: 1600px;
     margin-top: 0px;
@@ -272,6 +290,8 @@
     height: 75px;
     width: 1600px;
     background-color: #414f6b;
+    position: relative;
+    bottom: 0;
 }
 
 .logo3 {
@@ -340,6 +360,7 @@
 }
 
 .content3 .active a{
+    cursor: pointer;
     border-bottom: 3px solid #414f6b;
 }
 

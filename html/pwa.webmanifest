@@ -1,0 +1,21 @@
+{
+    "name": "Coalition | assesment solution",
+    "short_name": "Coalition",
+    "description": "assesment solution.",
+    "icons": [
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }, {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#140f1c",
+    "background_color": "#140f1c"
+}
